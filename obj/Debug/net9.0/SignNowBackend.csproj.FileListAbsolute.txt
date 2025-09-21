@@ -89,8 +89,6 @@ C:\Users\zbook\Desktop\eSignature app\SignNowBackend\bin\Debug\net9.0\user-manag
 C:\Users\zbook\Desktop\eSignature app\SignNowBackend\bin\Debug\net9.0\user-management-backend\package.json
 C:\Users\adnan\OneDrive\Desktop\pfe_project_yahya\pfe_back-main\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\adnan\OneDrive\Desktop\pfe_project_yahya\pfe_back-main\bin\Debug\net9.0\appsettings.json
-C:\Users\adnan\OneDrive\Desktop\pfe_project_yahya\pfe_back-main\bin\Debug\net9.0\user-management-backend\package-lock.json
-C:\Users\adnan\OneDrive\Desktop\pfe_project_yahya\pfe_back-main\bin\Debug\net9.0\user-management-backend\package.json
 C:\Users\adnan\OneDrive\Desktop\pfe_project_yahya\pfe_back-main\bin\Debug\net9.0\SignNowBackend.staticwebassets.endpoints.json
 C:\Users\adnan\OneDrive\Desktop\pfe_project_yahya\pfe_back-main\bin\Debug\net9.0\SignNowBackend.exe
 C:\Users\adnan\OneDrive\Desktop\pfe_project_yahya\pfe_back-main\bin\Debug\net9.0\SignNowBackend.deps.json
@@ -99,6 +97,7 @@ C:\Users\adnan\OneDrive\Desktop\pfe_project_yahya\pfe_back-main\bin\Debug\net9.0
 C:\Users\adnan\OneDrive\Desktop\pfe_project_yahya\pfe_back-main\bin\Debug\net9.0\SignNowBackend.pdb
 C:\Users\adnan\OneDrive\Desktop\pfe_project_yahya\pfe_back-main\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\adnan\OneDrive\Desktop\pfe_project_yahya\pfe_back-main\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\adnan\OneDrive\Desktop\pfe_project_yahya\pfe_back-main\bin\Debug\net9.0\Newtonsoft.Json.dll
 C:\Users\adnan\OneDrive\Desktop\pfe_project_yahya\pfe_back-main\obj\Debug\net9.0\SignNowBackend.csproj.AssemblyReference.cache
 C:\Users\adnan\OneDrive\Desktop\pfe_project_yahya\pfe_back-main\obj\Debug\net9.0\SignNowBackend.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\adnan\OneDrive\Desktop\pfe_project_yahya\pfe_back-main\obj\Debug\net9.0\SignNowBackend.AssemblyInfoInputs.cache
@@ -106,6 +105,7 @@ C:\Users\adnan\OneDrive\Desktop\pfe_project_yahya\pfe_back-main\obj\Debug\net9.0
 C:\Users\adnan\OneDrive\Desktop\pfe_project_yahya\pfe_back-main\obj\Debug\net9.0\SignNowBackend.csproj.CoreCompileInputs.cache
 C:\Users\adnan\OneDrive\Desktop\pfe_project_yahya\pfe_back-main\obj\Debug\net9.0\SignNowBackend.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\adnan\OneDrive\Desktop\pfe_project_yahya\pfe_back-main\obj\Debug\net9.0\SignNowBackend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\adnan\OneDrive\Desktop\pfe_project_yahya\pfe_back-main\obj\Debug\net9.0\SignNowBackend.sourcelink.json
 C:\Users\adnan\OneDrive\Desktop\pfe_project_yahya\pfe_back-main\obj\Debug\net9.0\scopedcss\bundle\SignNowBackend.styles.css
 C:\Users\adnan\OneDrive\Desktop\pfe_project_yahya\pfe_back-main\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\adnan\OneDrive\Desktop\pfe_project_yahya\pfe_back-main\obj\Debug\net9.0\staticwebassets.build.json.cache
@@ -117,4 +117,3 @@ C:\Users\adnan\OneDrive\Desktop\pfe_project_yahya\pfe_back-main\obj\Debug\net9.0
 C:\Users\adnan\OneDrive\Desktop\pfe_project_yahya\pfe_back-main\obj\Debug\net9.0\SignNowBackend.pdb
 C:\Users\adnan\OneDrive\Desktop\pfe_project_yahya\pfe_back-main\obj\Debug\net9.0\SignNowBackend.genruntimeconfig.cache
 C:\Users\adnan\OneDrive\Desktop\pfe_project_yahya\pfe_back-main\obj\Debug\net9.0\ref\SignNowBackend.dll
-C:\Users\adnan\OneDrive\Desktop\pfe_project_yahya\pfe_back-main\bin\Debug\net9.0\Newtonsoft.Json.dll
