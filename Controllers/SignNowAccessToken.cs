@@ -19,9 +19,9 @@ namespace SignNowBackend.Controllers
 
         public class LoginRequest
         {
-            // Initialize to empty string so the compiler knows they’re never null
             public string Username { get; set; } = string.Empty;
             public string Password { get; set; } = string.Empty;
+            public string BasicToken { get; set; } = string.Empty; // 👈 added
         }
 
         [HttpPost("auth")]
@@ -30,6 +30,10 @@ namespace SignNowBackend.Controllers
             // (Optional) Remove these Console.WriteLine in production
             Console.WriteLine($"Username: {login.Username}");
             Console.WriteLine($"Password: {login.Password}");
+            Console.WriteLine($"BasicToken: {login.BasicToken}");
+
+            if (string.IsNullOrEmpty(login.BasicToken))
+                return BadRequest("Basic token is required.");
 
             var authUrl = "https://api.signnow.com/oauth2/token";
 
@@ -44,15 +48,12 @@ namespace SignNowBackend.Controllers
             Console.WriteLine("Contenu de la requête envoyée à SignNow:");
             Console.WriteLine(await content.ReadAsStringAsync());
 
-            var basicToken = Environment.GetEnvironmentVariable("SIGNNOW_BASIC_TOKEN");
-            if (string.IsNullOrEmpty(basicToken))
-                return StatusCode(500, "Le Basic token n'est pas configuré.");
-
             var request = new HttpRequestMessage(HttpMethod.Post, authUrl)
             {
                 Content = content
             };
-            request.Headers.Authorization = new AuthenticationHeaderValue("Basic", basicToken);
+            // 👇 Use token from frontend
+            request.Headers.Authorization = new AuthenticationHeaderValue("Basic", login.BasicToken);
 
             HttpResponseMessage response;
             try
@@ -61,9 +62,14 @@ namespace SignNowBackend.Controllers
             }
             catch (HttpRequestException ex)
             {
-                // Network failure
                 return StatusCode(503, $"Erreur lors de l'appel à SignNow : {ex.Message}");
             }
+            catch (HttpRequestException ex)
+            {
+                var more = ex.InnerException?.Message ?? "";
+                return StatusCode(503, $"Erreur lors de l'appel à SignNow : {ex.Message} {more}");
+            }
+
 
             var responseString = await response.Content.ReadAsStringAsync();
 

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SignNowBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d03cab082d4cbe9cba9b52e793b902a93de145db")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d6696a8f2ba68d3ad57c8502ee205752920aa1d")]
 [assembly: System.Reflection.AssemblyProductAttribute("SignNowBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SignNowBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
