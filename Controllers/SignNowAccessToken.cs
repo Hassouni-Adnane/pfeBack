@@ -64,12 +64,7 @@ namespace SignNowBackend.Controllers
             {
                 return StatusCode(503, $"Erreur lors de l'appel à SignNow : {ex.Message}");
             }
-            catch (HttpRequestException ex)
-            {
-                var more = ex.InnerException?.Message ?? "";
-                return StatusCode(503, $"Erreur lors de l'appel à SignNow : {ex.Message} {more}");
-            }
-
+            
 
             var responseString = await response.Content.ReadAsStringAsync();
 
