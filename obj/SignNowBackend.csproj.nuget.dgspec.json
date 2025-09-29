@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adnan\\OneDrive\\Desktop\\pfe_project_yahya\\pfe_back-main\\SignNowBackend.csproj": {}
+    "C:\\Users\\adnan\\eSignature app\\pfeBack\\SignNowBackend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adnan\\OneDrive\\Desktop\\pfe_project_yahya\\pfe_back-main\\SignNowBackend.csproj": {
+    "C:\\Users\\adnan\\eSignature app\\pfeBack\\SignNowBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adnan\\OneDrive\\Desktop\\pfe_project_yahya\\pfe_back-main\\SignNowBackend.csproj",
+        "projectUniqueName": "C:\\Users\\adnan\\eSignature app\\pfeBack\\SignNowBackend.csproj",
         "projectName": "SignNowBackend",
-        "projectPath": "C:\\Users\\adnan\\OneDrive\\Desktop\\pfe_project_yahya\\pfe_back-main\\SignNowBackend.csproj",
+        "projectPath": "C:\\Users\\adnan\\eSignature app\\pfeBack\\SignNowBackend.csproj",
         "packagesPath": "C:\\Users\\adnan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adnan\\OneDrive\\Desktop\\pfe_project_yahya\\pfe_back-main\\obj\\",
+        "outputPath": "C:\\Users\\adnan\\eSignature app\\pfeBack\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\adnan\\AppData\\Roaming\\NuGet\\NuGet.Config"
